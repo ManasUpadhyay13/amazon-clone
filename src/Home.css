@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* .home{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+} */
+
+.home__row{
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 30px 20px;
+   
+}
+
+.home__row:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+.home__row h4{
+    font-size: 25px;
+    color: grey;
+}
+.home .festival {
+  width: 100%;
+  margin-bottom: 0px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+}
+
+.product__images{
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
